@@ -24,12 +24,12 @@ function Project(img,name,date,code) {
     this.code = code;
 }
 var projects = [];
-projects.push(new Project("cv.png","CV","07-12-2018","nvt"));
-projects.push(new Project("leerplan.png","Leerplan","04-12-2018","nvt"));
-projects.push(new Project("portfolio.png","portfolio","19-12-2018","<a href='https://github.com/RandalphvanVelden/portfolio'>github</a>"));
-projects.push(new Project("calculator.png","calculator","20-12-2018","<a href='https://github.com/RandalphvanVelden/playground'>github</a>"));
-projects.push(new Project("meubelwebsite.png","meubel webshop","07-01-2019","<a href='https://github.com/RandalphvanVelden/meubel-website'>github</a>"));
-projects.push(new Project("groentefruit.png","groente en fruit webshop","21-01-2019","<a href='https://github.com/RandalphvanVelden/playground/tree/master/webshopvld'>github</a>"));
+    projects.push(new Project("cv.png","CV","07-12-2018","nvt"));
+    projects.push(new Project("leerplan.png","Leerplan","04-12-2018","nvt"));
+    projects.push(new Project("portfolio.png","portfolio","19-12-2018","<a href='https://github.com/RandalphvanVelden/portfolio'>github</a>"));
+    projects.push(new Project("calculator.png","calculator","20-12-2018","<a href='https://github.com/RandalphvanVelden/playground'>github</a>"));
+    projects.push(new Project("meubelwebsite.png","meubel webshop","07-01-2019","<a href='https://github.com/RandalphvanVelden/meubel-website'>github</a>"));
+    projects.push(new Project("groentefruit.png","groente en fruit webshop","21-01-2019","<a href='https://github.com/RandalphvanVelden/playground/tree/master/webshopvld'>github</a>"));
 
 
 function next(){
